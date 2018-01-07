@@ -17,10 +17,12 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-family: arial;
 }
 
 body {
     line-height:1;
+  
 }
 
 article,aside,details,figcaption,figure,
@@ -48,6 +50,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+  
 }
 
 /* change colours to suit your needs */
@@ -95,6 +98,7 @@ input, select {
 
 /********************end of css reset code*********************/
 
+/*Styling the header*/
 .wrapper{
   width: 100%;
   max-width: 960px;
@@ -144,6 +148,78 @@ header nav span{
   color: green;
   margin-left: 20px;
 }
+
+/*Styling the banner*/
+#lead-banner img{
+  width: 100%;
+}
+
+#lead-banner{
+  max-height: 440px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-overlay{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+
+.banner-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 72px; 
+}
+
+#lead-banner p{
+  color: #fff;
+  font-size: 24px;
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+#lead-banner a{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c9e0a+0,3c9e0a+100 */
+
+  background: #3c9e0a;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #3c9e0a 0%, #3c9e0a 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #3c9e0a 0%, #3c9e0a 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #3c9e0a 0%, #3c9e0a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c9e0a', endColorstr='#3c9e0a', GradientType=0);
+  /* IE6-9 */
+  
+  /*custom css*/
+  color: #fff;
+  display: block;
+  width: 200px;
+  font-size: 18px;
+  text-align: center;
+  padding: 16px 0;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  box-shadow: 1px 1px 6px rgba(0, 0 , 0 , 0.4)
+  
+}
+
+
+
+
+
+
+
+
+
 
 
 
