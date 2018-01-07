@@ -212,8 +212,89 @@ header nav span{
   
 }
 
+/*Styling the main content*/
 
+section{
+  margin: 40px 0 60px;
+}
 
+section:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section#points-of-sale ul{
+  list-style-type: none; 
+}
+
+#points-of-sale h2{
+  height: 0;
+  text-indent: -10000px;
+}
+
+#points-of-sale li{
+  float: left;
+  width: 32%;
+}
+
+#points-of-sale li:nth-child(2){
+  margin: 0 2%;
+}
+
+#points-of-sale li h3{
+  text-align: center;
+  color: #888;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  
+}
+
+#points-of-sale p{
+  text-align: center;
+  width: 80%;
+  margin: 0 10%;
+  font-size: 14px;
+  color: #888;
+  line-height: 1.4em;
+}
+
+#clients{
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+}
+
+#clients h2{
+  background: green;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  width: 250px;
+  text-transform: uppercase;
+  position: relative;
+  top: -45px;
+  margin: 0 auto;
+  border-left: 16px solid #fff;
+  border-right: 16px solid #fff;
+}
+
+#clients img{
+  float: left;
+  width: 30%;
+}
+
+#clients blockquote{
+  float: right;
+  width 50%;
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6em;
+  color: #888;
+  padding-top: 50px;
+  background: url(images/quote.png) no-repeat top left;
+}
 
 
 
